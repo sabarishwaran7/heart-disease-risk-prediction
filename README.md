@@ -2,23 +2,41 @@
 
 A comprehensive machine learning system for predicting heart disease risk using patient medical data, now powered by **Streamlit** for an enhanced interactive experience.
 
-##  Project Overview
+## Project Overview
 
 This project uses the Cleveland Heart Disease dataset to train machine learning models that can predict the likelihood of heart disease based on 13 medical parameters. The application has been upgraded from a Flask web app to a modern Streamlit dashboard with advanced reporting features.
 
-###  Key Features
+### Key Features
 - **Interactive Streamlit Dashboard**: Clean, professional, and responsive user interface.
 - **Real-time Predictions**: Instant risk assessment using a trained Random Forest model.
 - **Health Parameter Analysis**: Detailed breakdown of medical parameters (Normal, Borderline, Abnormal).
 - **Risk Factor Identification**: Highlights the major contributing factors to the predicted risk.
 - **Hospital-Style Reports**: Generates professional PDF reports with:
-    - Patient Demographics
-    - Vital Signs & Cardiac Assessment
-    - Color-coded Risk Level
-    - Medical Recommendations
-    - Report Preview & Download
+  - Patient Demographics
+  - Vital Signs & Cardiac Assessment
+  - Color-coded Risk Level
+  - Medical Recommendations
+  - Report Preview & Download
 - **History Tracking**: Automatically saves and displays past predictions.
 - **High Accuracy**: Random Forest model achieves **88.52% accuracy**.
+
+## 📸 Screenshots
+
+### 🖥️ Main Dashboard
+![Main Interface](photo3.png)
+
+### 📊 Health Parameter Analysis
+![Parameter Analysis](photo4.png)
+
+### 📋 Professional Medical Report
+![Medical Report](photo2.png)
+
+## Quick Start
+
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+
 
 ##  Quick Start
 
@@ -81,9 +99,9 @@ HEART_DISEASE/
 13. `Thalassemia (thal)`: Blood disorder status
 
 ### Risk Classification
-- 🟢 **Low Risk (<30%)**: Normal range, maintain healthy lifestyle.
-- 🟡 **Medium Risk (30-70%)**: Borderline risk, medical consultation advised.
-- 🔴 **High Risk (>70%)**: Critical risk, immediate medical attention recommended.
+-  **Low Risk (<30%)**: Normal range, maintain healthy lifestyle.
+-  **Medium Risk (30-70%)**: Borderline risk, medical consultation advised.
+-  **High Risk (>70%)**: Critical risk, immediate medical attention recommended.
 
 ##  Application Features
 
