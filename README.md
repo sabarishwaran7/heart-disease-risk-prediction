@@ -109,8 +109,5 @@ This system is for informational purposes only and should not be used as a subst
     - Added professional PDF report generation with hospital branding.
     - Removed emojis for a clinical, professional appearance.
 
-## 📞 Support
-For questions or issues, please verify that all requirements are installed and `streamlit` is running correctly.
-
 ---
 **Model**: Random Forest (n_estimators=100) | **Accuracy**: 88.52% | **Updated**: Jan 2026
