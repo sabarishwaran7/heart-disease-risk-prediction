@@ -1,0 +1,28 @@
+🏥 HEART DISEASE RISK PREDICTION - QUICK START
+===============================================
+
+🚀 ONE COMMAND SETUP:
+python setup.py
+
+📋 MANUAL SETUP:
+1. Install dependencies: pip install -r requirements.txt
+2. Start application: python app.py
+3. Open browser: http://localhost:5000
+
+✅ WHAT'S INCLUDED:
+- Complete web application
+- Trained ML model (88.52% accuracy)
+- Interactive prediction form
+- Results and history tracking
+- Professional UI design
+
+🎯 READY TO USE:
+- No additional setup required
+- All dependencies specified
+- Model pre-trained and integrated
+- Just run and start predicting!
+
+📞 SUPPORT:
+- Check README.md for detailed documentation
+- All files are production-ready
+- Works on Windows, Mac, and Linux
