@@ -2,11 +2,11 @@
 
 A comprehensive machine learning system for predicting heart disease risk using patient medical data, now powered by **Streamlit** for an enhanced interactive experience.
 
-## 📋 Project Overview
+##  Project Overview
 
 This project uses the Cleveland Heart Disease dataset to train machine learning models that can predict the likelihood of heart disease based on 13 medical parameters. The application has been upgraded from a Flask web app to a modern Streamlit dashboard with advanced reporting features.
 
-### 🎯 Key Features
+###  Key Features
 - **Interactive Streamlit Dashboard**: Clean, professional, and responsive user interface.
 - **Real-time Predictions**: Instant risk assessment using a trained Random Forest model.
 - **Health Parameter Analysis**: Detailed breakdown of medical parameters (Normal, Borderline, Abnormal).
@@ -20,7 +20,7 @@ This project uses the Cleveland Heart Disease dataset to train machine learning 
 - **History Tracking**: Automatically saves and displays past predictions.
 - **High Accuracy**: Random Forest model achieves **88.52% accuracy**.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -36,7 +36,7 @@ streamlit run app.py
 The application will automatically open in your default browser at:
 `http://localhost:8501`
 
-## 📊 Model Performance
+##  Model Performance
 
 | Model | Accuracy | AUC Score | Status |
 |-------|----------|-----------|---------|
@@ -45,7 +45,7 @@ The application will automatically open in your default browser at:
 | Gradient Boosting | 85.25% | 0.946 | ✅ Good |
 | SVM | 67.21% | 0.794 | ⚠️ Fair |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 HEART_DISEASE/
@@ -58,7 +58,7 @@ HEART_DISEASE/
 └── training_summary.md             # Detailed training report
 ```
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Dataset
 - **Source**: Cleveland Clinic Foundation
@@ -85,23 +85,23 @@ HEART_DISEASE/
 - 🟡 **Medium Risk (30-70%)**: Borderline risk, medical consultation advised.
 - 🔴 **High Risk (>70%)**: Critical risk, immediate medical attention recommended.
 
-## 🌐 Application Features
+##  Application Features
 
-### 🔮 Prediction Page
+###  Prediction Page
 - **Patient Form**: Easy-to-use form for entering medical data.
 - **Instant Analysis**: Immediate calculation of risk probability.
 - **Visual Feedback**: Success/Warning/Error indicators based on risk level.
 - **Downloadable PDF**: Professional medical report generation with preview.
 
-### 📜 History Page
+###  History Page
 - **Records**: View table of all past predictions.
 - **Export**: Download history as CSV for external analysis.
 
-## ⚠️ Medical Disclaimer
+##  Medical Disclaimer
 
 This system is for informational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
 
-## 🔄 Recent Updates
+##  Recent Updates
 - **v2.0 (Streamlit Migration)**:
     - Replaced Flask backend with Streamlit.
     - Added comprehensive Health Parameter Analysis.
